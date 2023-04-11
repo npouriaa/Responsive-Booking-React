@@ -1,0 +1,45 @@
+#submit {
+  background-color: #006ce6;
+}
+
+#submit:hover {
+  background-color: #00487a;
+}
+
+#facebook {
+  fill: #4267b2;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #c3bfbf;
+  border-bottom-color: #006ce6;
+  border-radius: 50%;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 320px) {
+  .frm-con {
+    height: 550px;
+    width: 820px;
+  }
+}
+
+@media (min-width: 640px) {
+  .frm-con {
+    height: 550px;
+    width: 1052px;
+  }
+}

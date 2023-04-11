@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "segoe-m";
+  src: url(./fonts/Segoe-UI.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "segoe-b";
+  src: url(./fonts/Segoe-UI-Bold.ttf);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+:root {
+  --main-color: #003580;
+  --text-sec-color: #003580;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.border-color {
+  border-color: #febb02;
+}
+
+.font-b {
+  font-family: "segoe-b";
+}
+
+.text-sec {
+  color: var(--text-sec-color);
+}
+
+.bg-main {
+  background-color: var(--main-color);
+}
+
+* {
+  transition: all 0.15s;
+  font-family: "segoe-m";
+}
+
+.border-1 {
+  border-width: 1px;
+}
+
+.border-b-1 {
+  border-bottom-width: 1px;
+}
+
+nav {
+  border-bottom-color: #b2b0b093;
+}
+
+.bg-hover:hover {
+  background-color: rgba(240, 248, 255, 0.246);
+}
+
+input[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+}
+
+
+.btn-bg {
+  background-color: #0071c2 !important;
+}
+
+.btn-bg:hover {
+  background-color: #00487a !important;
+}
+
+.h-1px {
+  height: 1px;
+}
+
+.detailsBtn {
+  background-color: #0071c2;
+  padding: 10px;
+  color: #fff;
+  border-radius: 4px;
+}
+
+@media (min-width: 320px) {
+  .f-size-r {
+    font-size: 7px;
+  }
+  .header-title {
+    width: 100%;
+  }
+  .mtC{
+    margin-top: 450px;
+  }
+  .btn-f-e{
+    padding: 0 1px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 481px) {
+  .f-size-r {
+    font-size: 10px;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media (min-width: 641px) {
+  #header-ch,
+  .header-title {
+    width: 760px;
   }
+  .f-size-r {
+    font-size: 14px;
+  }
+}
+@media (min-width: 961px) {
+  #header-ch,
+  .header-title {
+    width: 1052px;
+  }
+  .f-size-r {
+    font-size: 13px;
+  }
+}
+@media (min-width: 1025px) {
+}
+@media (min-width: 1281px) {
 }

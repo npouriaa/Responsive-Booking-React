@@ -1,0 +1,97 @@
+.input-header:focus .input-header-con {
+  border: 1px solid red;
+}
+
+.shadow {
+  box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bg1,
+.bg2,
+.bg3,
+.bg4,
+.bg5 {
+  background-size: cover;
+}
+
+.bg1 {
+  background-image: url(https://cf.bstatic.com/xdata/images/city/540x270/957800.webp?k=6e50f4c36265ab07bf1c6498c298d8a9de40400f606365b83266a3e7ffe67877&o=);
+}
+
+.bg2 {
+  background-image: url(https://cf.bstatic.com/xdata/images/city/540x270/823860.webp?k=ad78ae3df378d8246dc7c5a486520020f40ea92ca3b08569514092bd1ec34750&o=);
+}
+
+.bg3 {
+  background-image: url(https://cf.bstatic.com/xdata/images/city/540x270/976712.webp?k=8a79525adca81ab8b7d294e722e28f79fb86d503713fa74727abd83cf8249a7d&o=);
+}
+
+.bg4 {
+  background-image: url(https://cf.bstatic.com/xdata/images/city/540x270/976694.webp?k=2d9c7cfee16c559fd62fdc7cafb491f4b28494b99525fa00318186e6be96a202&o=);
+}
+
+.bg5 {
+  background-image: url(https://cf.bstatic.com/xdata/images/city/540x270/689601.webp?k=31342f25f07377f6f303fde3f6cd84d8e4d68b7e77f88e547c52fab6d19fb452&o=);
+}
+
+.sht:hover {
+  box-shadow: inset 0 10px 20px -6px #000000;
+}
+
+.li-bg-main {
+  border: 1px solid #0071c2;
+  color: #0071c2;
+  background-color: #f0f7fb;
+}
+.li-bg-main svg {
+  fill: #0071c2;
+}
+
+.li-bg-main-hover:hover {
+  background-color: #f0f0f0;
+}
+
+.offers-card-1 {
+  background-size: cover;
+  background-image: url(https://q-xx.bstatic.com/xdata/images/xphoto/714x300/184699273.jpeg?k=503e088a7d417c30217b5109dda404d2c2050001588cf7a45fca63e3363573de&o=);
+}
+
+.offers-card-2 {
+  background-size: cover;
+  background-image: url(https://r-xx.bstatic.com/xdata/images/xphoto/714x300/182431478.jpeg?k=fcbb6d5552a1d4ff338978206c449077ab8ad696050cfd7e4edef1ddc11225cc&o=);
+}
+
+.more-link {
+  color: #0071c2;
+}
+
+.japan-img:hover img {
+  transform: scale(1.1);
+  transition: all 0.4s;
+}
+
+.wroldmap-bg {
+  background-image: url(https://cf.bstatic.com/psb/capla/static/media/world-map.7d457a5d.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.btn-con-wr button {
+  color: #0071c2;
+}
+
+.btn-con-wr :nth-child(1) {
+  border: 1px solid #0071c2;
+}
+
+.btn-con-wr button:hover {
+  background-color: #d3d9dd;
+}
+
+footer {
+  background-color: #00224f;
+}
+
+.hInputCon{
+  width: 100vw;
+}
