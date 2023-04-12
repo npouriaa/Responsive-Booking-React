@@ -60,7 +60,7 @@ class ReservedFlights extends Component {
             ) : (
               <div
                 ref={this.errorRef}
-                className="w-full text-white lg:text-xl md:text-lg max-sm:text-xs lg:h-20 max-sm:h-10 md:h-14 flex justify-center items-center bg-red-400"
+                className="w-full text-white lg:text-xl md:text-lg max-sm:text-xs lg:h-20 max-sm:h-10 md:h-14 flex justify-center items-center bg-red-500"
               >
                 Please Login First
               </div>
